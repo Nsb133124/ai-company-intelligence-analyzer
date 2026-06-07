@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import json
 from openai import OpenAI
@@ -91,6 +90,3 @@ if __name__ == "__main__":
     if "error" not in result:
         print("\nCompany Name:", result["company_name"])
         print("Industry:", result["industry"])
-=======
-
->>>>>>> 5ac3a9ee14b66c36c83502ac4795be12fb8280eb
