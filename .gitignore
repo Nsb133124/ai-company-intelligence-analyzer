@@ -1,1 +1,4 @@
-
+.env
+__pycache__/
+company_database.csv
+company_database.xlsx
