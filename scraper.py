@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import requests
 from bs4 import BeautifulSoup
 
@@ -63,6 +62,3 @@ Page Contents:
 
 {text}
 """
-=======
-
->>>>>>> 5ac3a9ee14b66c36c83502ac4795be12fb8280eb
