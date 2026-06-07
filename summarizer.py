@@ -9,8 +9,15 @@ from save_to_csv import save_company
 load_dotenv()
 
 # Groq Client
+import streamlit as st
+
+groq_key = os.getenv("GROQ_API_KEY")
+
+if not groq_key:
+    groq_key = st.secrets["GROQ_API_KEY"]
+
 client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key=groq_key,
     base_url="https://api.groq.com/openai/v1",
 )
 
